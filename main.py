@@ -35,7 +35,7 @@ def send_birthday_greetings(email, name, job, interests, age):
 def main():
     try:
         # nolasa datus no excel failu
-        excel_file = 'datubaze.xlsx'#ievieto šeit path uz savu excel datubāzi
+        excel_file = 'datubaze1.xlsx'#ievieto šeit path uz savu excel datubāzi
         df = pd.read_excel(excel_file)
 
         today = datetime.now().strftime('%m-%d')
